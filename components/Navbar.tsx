@@ -65,7 +65,7 @@ const Navbar = () => {
                             style={{ padding: "20px" }}
                         >
                             <div className=' flex w-full items-center justify-between mb-8'>
-                                <h3 className=' text-xl uppercase text-green-700 font-bold'>$MEG</h3>
+                                <h3 className=' text-xl text-green-700 font-bold'>$EarPlug</h3>
                                 <button
                                     onClick={toggleSidebar}
                                     style={{ margin: '0px', padding: '10px', cursor: 'pointer' }}
@@ -74,7 +74,7 @@ const Navbar = () => {
                                 </button>
                             </div>
                             <ul style={{ listStyle: "none", padding: 0 }}>
-                                <Link onClick={toggleSidebar} href={'/#home'} className=" mb-4 w-fit rounded-full text-green-700 flex items-center justify-center  hover:text-white duration-500">Home 🏠</Link>
+                                <Link onClick={toggleSidebar} href={'/#hero'} className=" mb-4 w-fit rounded-full text-green-700 flex items-center justify-center  hover:text-white duration-500">Home 🏠</Link>
                                 {/* <Link onClick={toggleSidebar} href={'/#about'} className=" mb-4 w-fit rounded-full text-green-700 flex items-center justify-center  hover:text-white duration-500">About 📝</Link> */}
                                 <Link onClick={toggleSidebar} href={'/#roadmap'} className=" mb-4 w-fit rounded-full text-green-700 flex items-center justify-center  hover:text-white duration-500">Roadmap 🗺️</Link>
                                 <div className=" w-full flex items-center justify-between">
@@ -95,7 +95,7 @@ const Navbar = () => {
                 </div>
 
                 <div className=' hidden lg:flex items-center justify-center'>
-                    <Link onClick={toggleSidebar} href={'/#home'} className=" w-fit rounded-full text-green-700 flex items-center justify-center  hover:text-white duration-500 mx-4">Home</Link>
+                    <Link onClick={toggleSidebar} href={'/#hero'} className=" w-fit rounded-full text-green-700 flex items-center justify-center  hover:text-white duration-500 mx-4">Home</Link>
                     {/* <Link onClick={toggleSidebar} href={'/#about'} className=" w-fit rounded-full text-green-700 flex items-center justify-center  hover:text-white duration-500 mx-4">About</Link> */}
                     <Link onClick={toggleSidebar} href={'/#roadmap'} className=" w-fit rounded-full text-green-700 flex items-center justify-center  hover:text-white duration-500 mx-4">Roadmap</Link>
                     <div className=" w-full flex items-center justify-between">
