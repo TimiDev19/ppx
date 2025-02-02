@@ -75,7 +75,7 @@ const Navbar = () => {
                             </div>
                             <ul style={{ listStyle: "none", padding: 0 }}>
                                 <Link onClick={toggleSidebar} href={'/#hero'} className=" mb-4 w-fit rounded-full text-green-700 flex items-center justify-center  hover:text-white duration-500">Home 🏠</Link>
-                                {/* <Link onClick={toggleSidebar} href={'/#about'} className=" mb-4 w-fit rounded-full text-green-700 flex items-center justify-center  hover:text-white duration-500">About 📝</Link> */}
+                                <Link onClick={toggleSidebar} href={'/#about'} className=" mb-4 w-fit rounded-full text-green-700 flex items-center justify-center  hover:text-white duration-500">About 📝</Link>
                                 <Link onClick={toggleSidebar} href={'/#roadmap'} className=" mb-4 w-fit rounded-full text-green-700 flex items-center justify-center  hover:text-white duration-500">Roadmap 🗺️</Link>
                                 <div className=" w-full flex items-center justify-between">
                                     <Link target="blank" href={'https://t.me/+mSGQKPhk484xY2Jl'} className=" p-3 bg-white rounded-full text-green-700 flex items-center justify-center border-2 border-white hover:border-green-700 hover:bg-transparent duration-500"><TelegramIcon /></Link>
@@ -96,7 +96,7 @@ const Navbar = () => {
 
                 <div className=' hidden lg:flex items-center justify-center'>
                     <Link onClick={toggleSidebar} href={'/#hero'} className=" w-fit rounded-full text-green-700 flex items-center justify-center  hover:text-white duration-500 mx-4">Home</Link>
-                    {/* <Link onClick={toggleSidebar} href={'/#about'} className=" w-fit rounded-full text-green-700 flex items-center justify-center  hover:text-white duration-500 mx-4">About</Link> */}
+                    <Link onClick={toggleSidebar} href={'/#about'} className=" w-fit rounded-full text-green-700 flex items-center justify-center  hover:text-white duration-500 mx-4">About</Link>
                     <Link onClick={toggleSidebar} href={'/#roadmap'} className=" w-fit rounded-full text-green-700 flex items-center justify-center  hover:text-white duration-500 mx-4">Roadmap</Link>
                     <div className=" w-full flex items-center justify-between">
                         <Link target="blank" href={'https://t.me/+mSGQKPhk484xY2Jl'} className=" p-3 bg-white rounded-full text-green-700 flex items-center justify-center border-2 border-white hover:border-green-700 hover:bg-transparent duration-500mx-4"><TelegramIcon /></Link>
