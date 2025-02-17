@@ -38,7 +38,7 @@ const About = () => {
                 </div>
 
 
-            <div className=' w-[90%] mx-auto mb-5 lg:w-[30%] bg-slate-600 text-slate-800 p-3 rounded-xl'>
+            <div className=' w-[90%] mx-auto mb-5 lg:w-[30%] bg-slate-600 text-slate-800 p-3 rounded-xl border-2 border-slate-800'>
                 <h1 className=' text-center text-xl font-semibold mb-4'>About $HIC</h1>
                 <p className=' text-center'>
                     Hostage In Crypto ($HIC) is a token designed specially for individuals who have been burned by rug pulls in the past and are tired of falling victim to scams in their quest for financial success. With $HIC, we aim to create a community where we can all thrive together.

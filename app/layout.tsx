@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "$HIC",
-  description: "The Legendary Journey of EarPlug Begins!",
+  description: "Join us on this exciting journey to financial freedom!",
 };
 
 export default function RootLayout({
@@ -34,7 +34,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased h-[100vh] overflow-y-scroll scroll-smooth`}
       >
-        <main className=" w-screen h-screen">
+        <main className=" w-screen h-screen bg-slate-500">
           <Navbar />
           {children}
         </main>

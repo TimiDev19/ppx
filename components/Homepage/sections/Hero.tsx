@@ -42,7 +42,7 @@ const Hero = () => {
                     <h1 className=" mr-4 cursor-pointer font-extrabold text-white break-words break-all overflow-wrap text-md md:text-xl text-center lg:text-3xl max-w-full">
                         {textToCopy}
                     </h1>
-                    <h1 className=' cursor-pointer'><CopyAll /> Click to copy</h1>
+                    <h1 className=' cursor-pointer'><CopyAll /> Click to copy CA</h1>
                 </div>
                 {copied && <span className="text-white">Text copied to clipboard!</span>}
             </div>
