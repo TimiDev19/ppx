@@ -5,7 +5,7 @@ import { CopyAll } from '@mui/icons-material';
 const Hero = () => {
     const [copied, setCopied] = useState(false);
 
-    const textToCopy = `hthsgcashj...`;
+    const textToCopy = `3W9VEPGSZs9A7QgZdYRMLkWU5qw3uZwUFp17Hd2Zpump`;
 
     const handleCopy = () => {
         navigator.clipboard.writeText(textToCopy)
@@ -38,7 +38,7 @@ const Hero = () => {
                     for all of us.
                 </p>
 
-                <div onClick={handleCopy} className=' flex items-center justify-center bg-slate-800 text-white py-1 w-fit mx-auto lg:mx-0 px-4 rounded-md'>
+                <div onClick={handleCopy} className=' flex flex-col items-center justify-center bg-slate-800 text-white py-1 w-[95%] mx-auto lg:mx-0 px-4 rounded-md'>
                     <h1 className=" mr-4 cursor-pointer font-extrabold text-white break-words break-all overflow-wrap text-md md:text-xl text-center lg:text-3xl max-w-full">
                         {textToCopy}
                     </h1>

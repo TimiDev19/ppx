@@ -72,3 +72,10 @@
   background-position: center;
   background-size: cover;
 }
+
+.other-animation-bg{
+  background-image: linear-gradient(rgba(12, 13, 17, 0.7), rgba(15, 18, 29, 0.7)), url(../assets/hostage-logo.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}

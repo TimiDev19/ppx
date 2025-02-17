@@ -46,7 +46,7 @@ const About = () => {
             </div>
 
 
-                <div className=' animation-bg w-[90%] mx-auto mb-5 lg:w-[30%] h-[300px] bg-slate-600 text-slate-700 p-3 rounded-xl animate-pulse duration-[10000]'>
+                <div className=' other-animation-bg w-[90%] mx-auto mb-5 lg:w-[30%] h-[300px] bg-slate-600 text-slate-700 p-3 rounded-xl animate-pulse duration-[10000]'>
                     {/* <h1 className=' text-center text-xl font-semibold mb-4'>Empowering Creators and Users</h1>
                 <p className=' text-center mb-4'>
                     $EarPlug is designed to empower creators by providing them with the tools and resources necessary to build and monetize their projects effectively. The platform encourages user engagement through various incentives, including rewards for participation and contributions to the community. 
