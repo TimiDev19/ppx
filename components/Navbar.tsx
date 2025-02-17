@@ -84,7 +84,7 @@ const Navbar = () => {
                                 <Link onClick={toggleSidebar} href={'/#roadmap'} className=" mb-4 w-fit rounded-full text-slate-800 flex items-center justify-center  hover:text-white duration-500">Roadmap 🗺️</Link>
                                 <Link target='blank' onClick={toggleSidebar} href={'https://dexscreener.com/solana/ewzzr31xszanmluqu1cdyzlpzerdd3vkxdfbkawnkss4'} className=" mb-4 w-fit rounded-full text-slate-800 flex items-center justify-center  hover:text-white duration-500">DEXScreen</Link>
                                 <div className=" w-full flex items-center justify-between">
-                                    <Link target="blank" href={'https://t.me/+IPULoNfMXy85N2Ex'} className=" p-3 bg-slate-600 rounded-full text-slate-800 flex items-center justify-center border-2 border-slate-600 hover:border-slate-800 hover:bg-transparent duration-500"><TelegramIcon /></Link>
+                                    <Link target="blank" href={'https://t.me/+lPULoNfMXy85N2Ex'} className=" p-3 bg-slate-600 rounded-full text-slate-800 flex items-center justify-center border-2 border-slate-600 hover:border-slate-800 hover:bg-transparent duration-500"><TelegramIcon /></Link>
                                     <Link onClick={toggleSidebar} href={'/#home'} className=" bg-white rounded-full text-green-700 flex items-center justify-center border-2 border-slate-600 hover:border-slate-800 hover:bg-transparent duration-500">
                                         <Image
                                             src={Logo}
@@ -106,7 +106,7 @@ const Navbar = () => {
                     <Link onClick={toggleSidebar} href={'/#roadmap'} className=" w-fit rounded-full text-slate-800 flex items-center justify-center  hover:text-white duration-500 mx-4">Roadmap</Link>
                     <Link target='blank' onClick={toggleSidebar} href={'https://dexscreener.com/solana/ewzzr31xszanmluqu1cdyzlpzerdd3vkxdfbkawnkss4'} className=" w-fit rounded-full text-slate-800 flex items-center justify-center  hover:text-white duration-500 mx-4">DEXScreen</Link>
                     <div className=" w-full flex items-center justify-between">
-                        <Link target="blank" href={'https://t.me/+IPULoNfMXy85N2Ex'} className=" p-3 bg-slate-600 rounded-full text-slate-800 flex items-center justify-center border-2 border-slate-600 hover:border-slate-800 hover:bg-transparent duration-500mx-4"><TelegramIcon /></Link>
+                        <Link target="blank" href={'https://t.me/+lPULoNfMXy85N2Ex'} className=" p-3 bg-slate-600 rounded-full text-slate-800 flex items-center justify-center border-2 border-slate-600 hover:border-slate-800 hover:bg-transparent duration-500mx-4"><TelegramIcon /></Link>
                         <Link target="blank" href={'https://x.com/hostageincrypto?s=21&t=nk5kCymf71qnB1WAw2u8Zg'} className=" p-3 bg-slate-600 rounded-full text-slate-800 flex items-center justify-center border-slate-600 border-2 hover:border-slate-800 hover:bg-transparent duration-500 mx-4"><XIcon /></Link>
                         {/* <Link target="blank" href={'https://x.com/megaldonsui?igsh=NzdzYXRrcnBjMm5p&utm_source=qr'} className=" p-3 bg-white rounded-full text-green-700 flex items-center justify-center border-white border-2 hover:border-green-700 hover:bg-transparent duration-500 mx-4"><Instagram /></Link> */}
                     </div>
