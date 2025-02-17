@@ -1,6 +1,22 @@
-import React from 'react'
+"use client";
+import React, { useState } from 'react'
+import { CopyAll } from '@mui/icons-material';
 
 const Hero = () => {
+    const [copied, setCopied] = useState(false);
+
+    const textToCopy = `hthsgcashj...`;
+
+    const handleCopy = () => {
+        navigator.clipboard.writeText(textToCopy)
+            .then(() => {
+                setCopied(true);
+                setTimeout(() => setCopied(false), 2000); // Reset the copied state after 2 seconds
+            })
+            .catch(err => {
+                console.error("Failed to copy text: ", err);
+            });
+    };
     return (
         <section id="hero" className="h-screen relative bg-black">
             <video
@@ -14,13 +30,21 @@ const Hero = () => {
             ></video>
             <div className="z-[3] relative text-white h-full w-full flex flex-col justify-center items-center gap-7">
                 <h1 className="text-center font-light text-4xl lg:text-7xl slab">
-                    The Legendary Journey of EarPlug Begins!
+                    Join us on this exciting journey to financial freedom!
                 </h1>
                 <p className=" text-sm w-[60%] lg:w-[40%] text-center mx-auto font-semibold">
-                    Get ready to silence the noise and bring back the laughter! $EarPlug is here to redefine
-                    the meme landscape with simplicity and charm. With this straightforward and powerful roadmap,
-                    we’re ushering in the golden age of meme coins—quieter, funnier, and more iconic than ever before!
+                    Exciting news for all crypto enthusiasts! Get ready for the launch of HOSTAGE IN CRYPTO. Don't miss out on this chance to be
+                    part of a project that prioritizes <i>transparency,</i> <i>security and growth</i>. Buy and hold $HIC and let's build a stronger future
+                    for all of us.
                 </p>
+
+                <div onClick={handleCopy} className=' flex items-center justify-center bg-slate-800 text-white py-1 w-fit mx-auto lg:mx-0 px-4 rounded-md'>
+                    <h1 className=" mr-4 cursor-pointer font-extrabold text-white break-words break-all overflow-wrap text-md md:text-xl text-center lg:text-3xl max-w-full">
+                        {textToCopy}
+                    </h1>
+                    <h1 className=' cursor-pointer'><CopyAll /> Click to copy</h1>
+                </div>
+                {copied && <span className="text-white">Text copied to clipboard!</span>}
             </div>
         </section>
     )

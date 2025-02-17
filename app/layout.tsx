@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "$EarPlug",
+  title: "$HIC",
   description: "The Legendary Journey of EarPlug Begins!",
 };
 

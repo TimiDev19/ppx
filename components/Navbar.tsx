@@ -1,7 +1,7 @@
 "use client"
 import Image from 'next/image'
 import React, { useState } from 'react'
-import Logo from '@/assets/earplug-logo.png'
+import Logo from '@/assets/hostage-logo.jpg'
 import MenuOutlinedIcon from '@mui/icons-material/MenuOutlined';
 import CloseOutlinedIcon from '@mui/icons-material/CloseOutlined';
 import Link from 'next/link';
@@ -20,12 +20,16 @@ const Navbar = () => {
     };
     return (
         <div className=' w-[100vw] h-[80px] z-50 fixed'>
-            <div className=' w-full h-[80px] bg-orange-400 border-b border-b-green-700 flex items-center justify-between px-[10px]'>
-                <Image
-                    src={Logo}
-                    alt='logo'
-                    className=' h-[90%] w-auto rounded-full border-2 border-green-700'
-                />
+            <div className=' w-full h-[80px] bg-slate-500 border-b border-b-slate-800 flex items-center justify-between px-[10px]'>
+                <div className=' flex items-center justify-center h-full'>
+                    <Image
+                        src={Logo}
+                        alt='logo'
+                        className=' h-[90%] w-auto rounded-full border-2 border-slate-700'
+                    />
+
+                    <h1 className=' text-3xl font-semibold mx-3 text-slate-800'>$HIC</h1>
+                </div>
 
                 <div className=' lg:hidden'>
                     {/* Button to toggle the sidebar */}
@@ -33,7 +37,7 @@ const Navbar = () => {
                         onClick={toggleSidebar}
                         style={{ margin: '0px', padding: '10px', cursor: 'pointer' }}
                     >
-                        {isOpen ? <CloseOutlinedIcon className='text-3xl text-green-700' /> : <MenuOutlinedIcon className=' height-[400px] text-3xl text-green-700' />}
+                        {isOpen ? <CloseOutlinedIcon className='text-3xl text-slate-800' /> : <MenuOutlinedIcon className=' height-[400px] text-3xl text-slate-800' />}
                     </button>
 
                     {/* Sidebar motion component */}
@@ -55,7 +59,7 @@ const Navbar = () => {
                             top: 0,
                             left: 0,
                         }}
-                        className=' shadow-md shadow-black bg-orange-400 text-green-700'
+                        className=' shadow-md shadow-black bg-slate-500 text-slate-800'
                     >
                         {/* Sidebar content */}
                         <motion.div
@@ -65,28 +69,28 @@ const Navbar = () => {
                             style={{ padding: "20px" }}
                         >
                             <div className=' flex w-full items-center justify-between mb-8'>
-                                <h3 className=' text-xl text-green-700 font-bold'>$EarPlug</h3>
+                                <h3 className=' text-xl text-slate-800 font-bold'>$HIC</h3>
                                 <button
                                     onClick={toggleSidebar}
                                     style={{ margin: '0px', padding: '10px', cursor: 'pointer' }}
                                 >
-                                    {isOpen ? <CloseOutlinedIcon className='text-3xl text-green-700' /> : " "}
+                                    {isOpen ? <CloseOutlinedIcon className='text-3xl text-slate-800' /> : " "}
                                 </button>
                             </div>
                             <ul style={{ listStyle: "none", padding: 0 }}>
-                                <Link onClick={toggleSidebar} href={'/#hero'} className=" mb-4 w-fit rounded-full text-green-700 flex items-center justify-center  hover:text-white duration-500">Home 🏠</Link>
-                                <Link onClick={toggleSidebar} href={'/#about'} className=" mb-4 w-fit rounded-full text-green-700 flex items-center justify-center  hover:text-white duration-500">About 📝</Link>
-                                <Link onClick={toggleSidebar} href={'/#roadmap'} className=" mb-4 w-fit rounded-full text-green-700 flex items-center justify-center  hover:text-white duration-500">Roadmap 🗺️</Link>
+                                <Link onClick={toggleSidebar} href={'/#hero'} className=" mb-4 w-fit rounded-full text-slate-800 flex items-center justify-center  hover:text-white duration-500">Home 🏠</Link>
+                                <Link onClick={toggleSidebar} href={'/#about'} className=" mb-4 w-fit rounded-full text-slate-800 flex items-center justify-center  hover:text-white duration-500">About 📝</Link>
+                                {/* <Link onClick={toggleSidebar} href={'/#roadmap'} className=" mb-4 w-fit rounded-full text-slate-800 flex items-center justify-center  hover:text-white duration-500">Roadmap 🗺️</Link> */}
                                 <div className=" w-full flex items-center justify-between">
-                                    <Link target="blank" href={'https://t.me/+mSGQKPhk484xY2Jl'} className=" p-3 bg-white rounded-full text-green-700 flex items-center justify-center border-2 border-white hover:border-green-700 hover:bg-transparent duration-500"><TelegramIcon /></Link>
-                                    <Link onClick={toggleSidebar} href={'/#home'} className=" bg-white rounded-full text-green-700 flex items-center justify-center border-2 border-white hover:border-green-700 hover:bg-transparent duration-500">
+                                    <Link target="blank" href={'https://t.me/+IPULoNfMXy85N2Ex'} className=" p-3 bg-slate-600 rounded-full text-slate-800 flex items-center justify-center border-2 border-slate-600 hover:border-slate-800 hover:bg-transparent duration-500"><TelegramIcon /></Link>
+                                    <Link onClick={toggleSidebar} href={'/#home'} className=" bg-white rounded-full text-green-700 flex items-center justify-center border-2 border-slate-600 hover:border-slate-800 hover:bg-transparent duration-500">
                                         <Image
                                             src={Logo}
                                             alt='logo'
                                             className=' h-[60px] w-auto rounded-full'
                                         />
                                     </Link>
-                                    <Link target="blank" href={'https://x.com/earplug1st'} className=" p-3 bg-white rounded-full text-green-700 flex items-center justify-center border-white border-2 hover:border-green-700 hover:bg-transparent duration-500 "><XIcon /></Link>
+                                    <Link target="blank" href={'https://x.com/hostageincrypto?s=21&t=nk5kCymf71qnB1WAw2u8Zg'} className=" p-3 bg-slate-600 rounded-full text-slate-800 flex items-center justify-center border-slate-600 border-2 hover:border-slate-800 hover:bg-transparent duration-500 "><XIcon /></Link>
                                     {/* <Link target="blank" href={'https://x.com/megaldonsui?igsh=NzdzYXRrcnBjMm5p&utm_source=qr'} className=" p-3 bg-white rounded-full text-green-700 flex items-center justify-center border-white border-2 hover:border-green-700 hover:bg-transparent duration-500 mx-4"><Instagram /></Link> */}
                                 </div>
                             </ul>
@@ -95,12 +99,12 @@ const Navbar = () => {
                 </div>
 
                 <div className=' hidden lg:flex items-center justify-center'>
-                    <Link onClick={toggleSidebar} href={'/#hero'} className=" w-fit rounded-full text-green-700 flex items-center justify-center  hover:text-white duration-500 mx-4">Home</Link>
-                    <Link onClick={toggleSidebar} href={'/#about'} className=" w-fit rounded-full text-green-700 flex items-center justify-center  hover:text-white duration-500 mx-4">About</Link>
-                    <Link onClick={toggleSidebar} href={'/#roadmap'} className=" w-fit rounded-full text-green-700 flex items-center justify-center  hover:text-white duration-500 mx-4">Roadmap</Link>
+                    <Link onClick={toggleSidebar} href={'/#hero'} className=" w-fit rounded-full text-slate-800 flex items-center justify-center  hover:text-white duration-500 mx-4">Home</Link>
+                    <Link onClick={toggleSidebar} href={'/#about'} className=" w-fit rounded-full text-slate-800 flex items-center justify-center  hover:text-white duration-500 mx-4">About</Link>
+                    {/* <Link onClick={toggleSidebar} href={'/#roadmap'} className=" w-fit rounded-full text-slate-800 flex items-center justify-center  hover:text-white duration-500 mx-4">Roadmap</Link> */}
                     <div className=" w-full flex items-center justify-between">
-                        <Link target="blank" href={'https://t.me/+mSGQKPhk484xY2Jl'} className=" p-3 bg-white rounded-full text-green-700 flex items-center justify-center border-2 border-white hover:border-green-700 hover:bg-transparent duration-500mx-4"><TelegramIcon /></Link>
-                        <Link target="blank" href={'https://x.com/earplug1st'} className=" p-3 bg-white rounded-full text-green-700 flex items-center justify-center border-white border-2 hover:border-green-700 hover:bg-transparent duration-500 mx-4"><XIcon /></Link>
+                        <Link target="blank" href={'https://t.me/+IPULoNfMXy85N2Ex'} className=" p-3 bg-slate-600 rounded-full text-slate-800 flex items-center justify-center border-2 border-slate-600 hover:border-slate-800 hover:bg-transparent duration-500mx-4"><TelegramIcon /></Link>
+                        <Link target="blank" href={'https://x.com/hostageincrypto?s=21&t=nk5kCymf71qnB1WAw2u8Zg'} className=" p-3 bg-slate-600 rounded-full text-slate-800 flex items-center justify-center border-slate-600 border-2 hover:border-slate-800 hover:bg-transparent duration-500 mx-4"><XIcon /></Link>
                         {/* <Link target="blank" href={'https://x.com/megaldonsui?igsh=NzdzYXRrcnBjMm5p&utm_source=qr'} className=" p-3 bg-white rounded-full text-green-700 flex items-center justify-center border-white border-2 hover:border-green-700 hover:bg-transparent duration-500 mx-4"><Instagram /></Link> */}
                     </div>
                 </div>

@@ -64,3 +64,11 @@
     @apply bg-background text-foreground;
   }
 }
+
+
+.animation-bg{
+  background-image: linear-gradient(rgba(12, 13, 17, 0.7), rgba(15, 18, 29, 0.7)), url(../assets/other-image.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
