@@ -18,8 +18,8 @@ const Hero = () => {
             });
     };
     return (
-        <section id="hero" className="h-screen relative bg-black">
-            <video
+        <section id="hero" className="h-screen relative bg-black bg-logo">
+            {/* <video
                 src="/bg-vid.mp4"
                 className="absolute inset-0 object-cover w-full h-full opacity-50"
                 autoPlay
@@ -27,7 +27,7 @@ const Hero = () => {
                 playsInline
                 muted
                 controls={false}
-            ></video>
+            ></video> */}
             <div className="z-[3] relative text-white h-full w-full flex flex-col justify-center items-center gap-7">
                 <h1 className="text-center font-light text-4xl lg:text-7xl slab">
                     Join us on this exciting journey to financial freedom!
