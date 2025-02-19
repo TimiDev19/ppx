@@ -6,7 +6,7 @@ import Link from 'next/link';
 const Hero = () => {
     const [copied, setCopied] = useState(false);
 
-    const textToCopy = `this-is-just-a-placeholder`;
+    const textToCopy = `2umQqRyexgfHcndkULDKStmJJ8xgDz7oBL3EfDJNmoon`;
 
     const handleCopy = () => {
         navigator.clipboard.writeText(textToCopy)
