@@ -6,7 +6,7 @@ import Link from 'next/link';
 const Hero = () => {
     const [copied, setCopied] = useState(false);
 
-    const textToCopy = `3W9VEPGSZs9A7QgZdYRMLkWU5qw3uZwUFp17Hd2Zpump`;
+    const textToCopy = `this-is-just-a-placeholder`;
 
     const handleCopy = () => {
         navigator.clipboard.writeText(textToCopy)
@@ -38,6 +38,13 @@ const Hero = () => {
                     part of a project that prioritizes <i>transparency,</i> <i>security and growth</i>. Buy and hold $CPT and let's build a stronger future
                     for all of us. */}
                 </p>
+                <div onClick={handleCopy} className=' flex flex-col items-center justify-center bg-black text-white py-1 w-[95%] lg:w-fit mx-auto lg:mx-0 px-4 rounded-md'>
+                    <h1 className=" mr-4 cursor-pointer font-extrabold text-white break-words break-all overflow-wrap text-md md:text-xl text-center lg:text-3xl max-w-full">
+                        {textToCopy}
+                    </h1>
+                    <h1 className=' cursor-pointer'><CopyAll /> Click to copy CA</h1>
+                </div>
+                {copied && <span className="text-black">Text copied to clipboard!</span>}
 
                 <div className=" flex flex-col w-[90%] mx-auto items-center justify-center lg:flex-row">
                     <Link

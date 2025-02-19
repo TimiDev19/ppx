@@ -44,7 +44,7 @@ const Roadmap = () => {
                     </div>
 
                     <div className=" mx-4 w-[90%] px-3 py-5 text-white bg-black rounded-md mb-6">
-                        Take $CPT to the world with global meme events and partnerships. Spread the iconic image of HIC and silence the noise across the globe!
+                        Take $CPT to the world with global meme events and partnerships. Spread the iconic image of CPT and silence the noise across the globe!
                     </div>
                 </div>
             </div>

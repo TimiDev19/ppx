@@ -82,6 +82,7 @@ const Navbar = () => {
                                 <Link onClick={toggleSidebar} href={'/#hero'} className=" mb-4 w-fit rounded-full text-white flex items-center justify-center  hover:tracking-wide duration-500">Home 🏠</Link>
                                 <Link onClick={toggleSidebar} href={'/#about'} className=" mb-4 w-fit rounded-full text-white flex items-center justify-center  hover:tracking-wide duration-500">About 📝</Link>
                                 <Link onClick={toggleSidebar} href={'/#roadmap'} className=" mb-4 w-fit rounded-full text-white flex items-center justify-center  hover:tracking-wide duration-500">Roadmap 🗺️</Link>
+                                <Link onClick={toggleSidebar} href={'/#letter'} className=" mb-4 w-fit rounded-full text-white flex items-center justify-center  hover:tracking-wide duration-500">Letter ✉️</Link>
                                 <Link target='blank' onClick={toggleSidebar} href={'https://dexscreener.com/solana/gu8wqcvwvw4sibajhgydxq71yrbmrxqdmhvs2v9q16lv'} className=" mb-4 w-fit rounded-full text-white flex items-center justify-center  hover:tracking-wide duration-500">DEXScreen</Link>
                                 <div className=" w-full flex items-center justify-between">
                                     <Link target="blank" href={'https://t.me/CaptTrench'} className=" p-3 bg-white rounded-full text-black hover:text-white flex items-center justify-center border-2 border-slate-600 hover:border-slate-800 hover:bg-transparent duration-500"><TelegramIcon /></Link>
