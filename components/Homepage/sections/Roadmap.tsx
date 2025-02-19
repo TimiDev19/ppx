@@ -35,7 +35,7 @@ const Roadmap = () => {
                     </div>
 
                     <div className=" mx-4 w-[90%] px-3 py-5 text-white bg-black rounded-md mb-6">
-                        Introduce $CPT-themed NFTs, quirky merchandise, and even a noise-blocking game to boost engagement and real-world use cases.
+                        Introduce $CPT-themed NFTs, quirky merchandise, and even a game to boost engagement and real-world use cases.
                     </div>
 
                     <div className=" flex items-center justify-start mb-4">
