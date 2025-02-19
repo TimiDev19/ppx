@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "$HIC",
-  description: "Join us on this exciting journey to financial freedom!",
+  title: "Captain Trenches ($CPT)",
+  description: "Victory is forged in the trenches!",
 };
 
 export default function RootLayout({
@@ -34,7 +34,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased h-[100vh] overflow-y-scroll scroll-smooth`}
       >
-        <main className=" w-screen h-screen bg-slate-500">
+        <main className=" w-screen h-screen bg-white">
           <Navbar />
           {children}
         </main>

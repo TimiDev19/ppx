@@ -90,3 +90,10 @@
   background-position: center;
   background-size: cover;
 }
+
+.banner {
+  background-image: url(../assets/cpt-banner.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}

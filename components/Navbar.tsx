@@ -1,7 +1,7 @@
 "use client"
 import Image from 'next/image'
 import React, { useState } from 'react'
-import Logo from '@/assets/hostage-logo.jpg'
+import Logo from '@/assets/cpt-banner.jpg'
 import MenuOutlinedIcon from '@mui/icons-material/MenuOutlined';
 import CloseOutlinedIcon from '@mui/icons-material/CloseOutlined';
 import Link from 'next/link';
@@ -21,15 +21,15 @@ const Navbar = () => {
     };
     return (
         <div className=' w-[100vw] h-[80px] z-50 fixed'>
-            <div className=' w-full h-[80px] bg-slate-500 border-b border-b-slate-800 flex items-center justify-between px-[10px]'>
+            <div className=' w-full h-[80px] bg-black border-b border-b-slate-800 flex items-center justify-between px-[10px]'>
                 <div className=' flex items-center justify-center h-full'>
                     <Image
                         src={Logo}
                         alt='logo'
-                        className=' h-[90%] w-auto rounded-full border-2 border-slate-700'
+                        className=' h-[90%] w-auto rounded-full border-2 border-white'
                     />
 
-                    <h1 className=' text-3xl font-semibold mx-3 text-slate-800'>$HIC</h1>
+                    <h1 className=' text-3xl font-semibold mx-3 text-white'>$CPT</h1>
                 </div>
 
                 <div className=' lg:hidden'>
@@ -38,7 +38,7 @@ const Navbar = () => {
                         onClick={toggleSidebar}
                         style={{ margin: '0px', padding: '10px', cursor: 'pointer' }}
                     >
-                        {isOpen ? <CloseOutlinedIcon className='text-3xl text-slate-800' /> : <MenuOutlinedIcon className=' height-[400px] text-3xl text-slate-800' />}
+                        {isOpen ? <CloseOutlinedIcon className='text-3xl text-white' /> : <MenuOutlinedIcon className=' height-[400px] text-3xl text-white' />}
                     </button>
 
                     {/* Sidebar motion component */}
@@ -60,7 +60,7 @@ const Navbar = () => {
                             top: 0,
                             left: 0,
                         }}
-                        className=' shadow-md shadow-black bg-slate-500 text-slate-800'
+                        className=' shadow-md shadow-black bg-black text-white'
                     >
                         {/* Sidebar content */}
                         <motion.div
@@ -70,29 +70,29 @@ const Navbar = () => {
                             style={{ padding: "20px" }}
                         >
                             <div className=' flex w-full items-center justify-between mb-8'>
-                                <h3 className=' text-xl text-slate-800 font-bold'>$HIC</h3>
+                                <h3 className=' text-xl text-white font-bold'>$CPT</h3>
                                 <button
                                     onClick={toggleSidebar}
                                     style={{ margin: '0px', padding: '10px', cursor: 'pointer' }}
                                 >
-                                    {isOpen ? <CloseOutlinedIcon className='text-3xl text-slate-800' /> : " "}
+                                    {isOpen ? <CloseOutlinedIcon className='text-3xl text-white' /> : " "}
                                 </button>
                             </div>
                             <ul style={{ listStyle: "none", padding: 0 }}>
-                                <Link onClick={toggleSidebar} href={'/#hero'} className=" mb-4 w-fit rounded-full text-slate-800 flex items-center justify-center  hover:text-white duration-500">Home 🏠</Link>
-                                <Link onClick={toggleSidebar} href={'/#about'} className=" mb-4 w-fit rounded-full text-slate-800 flex items-center justify-center  hover:text-white duration-500">About 📝</Link>
-                                <Link onClick={toggleSidebar} href={'/#roadmap'} className=" mb-4 w-fit rounded-full text-slate-800 flex items-center justify-center  hover:text-white duration-500">Roadmap 🗺️</Link>
-                                <Link target='blank' onClick={toggleSidebar} href={'https://dexscreener.com/solana/ewzzr31xszanmluqu1cdyzlpzerdd3vkxdfbkawnkss4'} className=" mb-4 w-fit rounded-full text-slate-800 flex items-center justify-center  hover:text-white duration-500">DEXScreen</Link>
+                                <Link onClick={toggleSidebar} href={'/#hero'} className=" mb-4 w-fit rounded-full text-white flex items-center justify-center  hover:tracking-wide duration-500">Home 🏠</Link>
+                                <Link onClick={toggleSidebar} href={'/#about'} className=" mb-4 w-fit rounded-full text-white flex items-center justify-center  hover:tracking-wide duration-500">About 📝</Link>
+                                <Link onClick={toggleSidebar} href={'/#roadmap'} className=" mb-4 w-fit rounded-full text-white flex items-center justify-center  hover:tracking-wide duration-500">Roadmap 🗺️</Link>
+                                <Link target='blank' onClick={toggleSidebar} href={'https://dexscreener.com/solana/gu8wqcvwvw4sibajhgydxq71yrbmrxqdmhvs2v9q16lv'} className=" mb-4 w-fit rounded-full text-white flex items-center justify-center  hover:tracking-wide duration-500">DEXScreen</Link>
                                 <div className=" w-full flex items-center justify-between">
-                                    <Link target="blank" href={'https://t.me/+lPULoNfMXy85N2Ex'} className=" p-3 bg-slate-600 rounded-full text-slate-800 flex items-center justify-center border-2 border-slate-600 hover:border-slate-800 hover:bg-transparent duration-500"><TelegramIcon /></Link>
-                                    <Link onClick={toggleSidebar} href={'/#home'} className=" bg-white rounded-full text-green-700 flex items-center justify-center border-2 border-slate-600 hover:border-slate-800 hover:bg-transparent duration-500">
+                                    <Link target="blank" href={'https://t.me/CaptTrench'} className=" p-3 bg-white rounded-full text-black hover:text-white flex items-center justify-center border-2 border-slate-600 hover:border-slate-800 hover:bg-transparent duration-500"><TelegramIcon /></Link>
+                                    <Link onClick={toggleSidebar} href={'/#home'} className=" bg-white rounded-full text-green-700 flex items-center justify-center border-2 border-white hover:border-slate-800 hover:bg-transparent duration-500">
                                         <Image
                                             src={Logo}
                                             alt='logo'
                                             className=' h-[60px] w-auto rounded-full'
                                         />
                                     </Link>
-                                    <Link target="blank" href={'https://x.com/hostageincrypto?s=21&t=nk5kCymf71qnB1WAw2u8Zg'} className=" p-3 bg-slate-600 rounded-full text-slate-800 flex items-center justify-center border-slate-600 border-2 hover:border-slate-800 hover:bg-transparent duration-500 "><XIcon /></Link>
+                                    <Link target="blank" href={'https://x.com/capttrench'} className=" p-3 bg-white rounded-full text-black hover:text-white flex items-center justify-center border-slate-600 border-2 hover:border-slate-800 hover:bg-transparent duration-500 "><XIcon /></Link>
                                     {/* <Link target="blank" href={'https://x.com/megaldonsui?igsh=NzdzYXRrcnBjMm5p&utm_source=qr'} className=" p-3 bg-white rounded-full text-green-700 flex items-center justify-center border-white border-2 hover:border-green-700 hover:bg-transparent duration-500 mx-4"><Instagram /></Link> */}
                                 </div>
                             </ul>
@@ -101,13 +101,14 @@ const Navbar = () => {
                 </div>
 
                 <div className=' hidden lg:flex items-center justify-center'>
-                    <Link onClick={toggleSidebar} href={'/#hero'} className=" w-fit rounded-full text-slate-800 flex items-center justify-center  hover:text-white duration-500 mx-4">Home</Link>
-                    <Link onClick={toggleSidebar} href={'/#about'} className=" w-fit rounded-full text-slate-800 flex items-center justify-center  hover:text-white duration-500 mx-4">About</Link>
-                    <Link onClick={toggleSidebar} href={'/#roadmap'} className=" w-fit rounded-full text-slate-800 flex items-center justify-center  hover:text-white duration-500 mx-4">Roadmap</Link>
-                    <Link target='blank' onClick={toggleSidebar} href={'https://dexscreener.com/solana/ewzzr31xszanmluqu1cdyzlpzerdd3vkxdfbkawnkss4'} className=" w-fit rounded-full text-slate-800 flex items-center justify-center  hover:text-white duration-500 mx-4">DEXScreen</Link>
+                    <Link onClick={toggleSidebar} href={'/#hero'} className=" w-fit rounded-full text-white flex items-center justify-center  hover:tracking-wide duration-500 mx-4">Home</Link>
+                    <Link onClick={toggleSidebar} href={'/#about'} className=" w-fit rounded-full text-white flex items-center justify-center  hover:tracking-wide duration-500 mx-4">About</Link>
+                    <Link onClick={toggleSidebar} href={'/#roadmap'} className=" w-fit rounded-full text-white flex items-center justify-center  hover:tracking-wide duration-500 mx-4">Roadmap</Link>
+                    <Link onClick={toggleSidebar} href={'/#letter'} className=" w-fit rounded-full text-white flex items-center justify-center  hover:tracking-wide duration-500 mx-4">Letter</Link>
+                    <Link target='blank' onClick={toggleSidebar} href={'https://dexscreener.com/solana/gu8wqcvwvw4sibajhgydxq71yrbmrxqdmhvs2v9q16lv'} className=" w-fit rounded-full text-white flex items-center justify-center  hover:tracking-wide duration-500 mx-4">DEXScreen</Link>
                     <div className=" w-full flex items-center justify-between">
-                        <Link target="blank" href={'https://t.me/+lPULoNfMXy85N2Ex'} className=" p-3 bg-slate-600 rounded-full text-slate-800 flex items-center justify-center border-2 border-slate-600 hover:border-slate-800 hover:bg-transparent duration-500mx-4"><TelegramIcon /></Link>
-                        <Link target="blank" href={'https://x.com/hostageincrypto?s=21&t=nk5kCymf71qnB1WAw2u8Zg'} className=" p-3 bg-slate-600 rounded-full text-slate-800 flex items-center justify-center border-slate-600 border-2 hover:border-slate-800 hover:bg-transparent duration-500 mx-4"><XIcon /></Link>
+                        <Link target="blank" href={'https://t.me/CaptTrench'} className=" p-3 bg-white rounded-full text-black hover:text-white flex items-center justify-center border-2 border-slate-600 hover:border-slate-800 hover:bg-transparent duration-500mx-4"><TelegramIcon /></Link>
+                        <Link target="blank" href={'https://x.com/capttrench'} className=" p-3 bg-white rounded-full text-black hover:text-white flex items-center justify-center border-slate-600 border-2 hover:border-slate-800 hover:bg-transparent duration-500 mx-4"><XIcon /></Link>
                         {/* <Link target="blank" href={'https://x.com/megaldonsui?igsh=NzdzYXRrcnBjMm5p&utm_source=qr'} className=" p-3 bg-white rounded-full text-green-700 flex items-center justify-center border-white border-2 hover:border-green-700 hover:bg-transparent duration-500 mx-4"><Instagram /></Link> */}
                     </div>
                 </div>
