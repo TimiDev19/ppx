@@ -44,7 +44,7 @@ const Roadmap = () => {
                     </div>
 
                     <div className=" mx-4 w-[90%] px-3 py-5 text-white bg-black rounded-md mb-6">
-                        Take $CPT to the world with global meme events and partnerships. Spread the iconic image of CPT and silence the noise across the globe!
+                    Take $CPT to the world by storm with global events, special missions and partnerships. To include custom trading api and algos, validating authentic crypto support teams, bots and marketing efforts for your projects. Our army of experts will help keep the trenches clean from scammers and rug pulls and support others on their mission!
                     </div>
                 </div>
             </div>
