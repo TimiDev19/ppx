@@ -92,8 +92,56 @@
 }
 
 .banner {
-  background-image: url(../assets/cpt-banner.jpg);
+  background-image: url(../assets/PPX-logo.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+.vertical-bounce{
+  animation-name: bounce;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+.horizontal-bounce{
+  animation-name: bounceX;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes bounce {
+  0%{
+    transform: translateY(0%);
+  }
+
+  33%{
+    transform: translateY(20%);
+  }
+
+  66%{
+    transform: translateY(20%);
+  }
+
+  100%{
+    transform: translateY(0%);
+  }
+}
+
+@keyframes bounceX {
+  0%{
+    transform: translateX(0%);
+  }
+
+  33%{
+    transform: translateX(20%);
+  }
+
+  66%{
+    transform: translateX(20%);
+  }
+
+  100%{
+    transform: translateX(0%);
+  }
 }
