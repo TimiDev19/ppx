@@ -35,7 +35,8 @@ const Hero = () => {
             ></video>
             <div className="z-[3] relative text-green-700 h-full w-full flex flex-col justify-center items-center gap-7">
                 <h1 className="text-center font-light text-4xl lg:text-7xl slab">
-                    OfficialPumpX is more than just a token, it’s a movement.
+                    Building a strong community 💎 <br />
+                    Hold, grow & succeed together!
                 </h1>
                 <p className=" text-sm w-[60%] lg:w-[40%] text-center mx-auto font-semibold">
                     {/* Exciting news for all crypto enthusiasts! Get ready for the launch of CAPTAIN TRENCH. Don't miss out on this chance to be

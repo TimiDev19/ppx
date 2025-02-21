@@ -11,40 +11,67 @@ const Roadmap = () => {
                 <div className=" border-l border-l-yellow-400 h-fit">
                     <div className=" flex items-center justify-start mb-4">
                         <div className=" mr-4 w-[60px] border-t border-yellow-400"></div>
-                        <h1 className="uppercase font-extrabold text-2xl">Phase 1: The Birth of $PPX</h1>
+                        <h1 className="uppercase font-extrabold text-2xl">Phase 1: Token Launch & Community Building</h1>
                     </div>
 
                     <div className=" mx-4 w-[90%] px-3 py-5 text-green-700 bg-yellow-400 rounded-md mb-6">
-                        A new icon enters the meme world. With a quirky story and simple yet impactful tech, $PPX begins its journey to capture hearts and block out the noise.
+                        <b>✅ Launch & Initial Steps</b> <br />
+                        • Token launch & smart contract audit <br />
+                        • Set up social media channels (Twitter, Telegram, Discord) <br />
+                        • Initial marketing campaigns & community growth <br />
+
+                        <b>✅ Early Listings & Reach</b> <br />
+                        • Listing on CoinGecko & CoinMarketCap <br />
+                        • First CEX & DEX listings <br />
+                        • Meme & viral marketing campaigns <br />
                     </div>
 
 
 
                     <div className=" flex items-center justify-start mb-4">
                         <div className=" mr-4 w-[60px] border-t border-yellow-400"></div>
-                        <h1 className="uppercase font-extrabold text-2xl">Phase 2: Community Expansion</h1>
+                        <h1 className="uppercase font-extrabold text-2xl">Phase 2: Growth & Scaling</h1>
                     </div>
 
                     <div className=" mx-4 w-[90%] px-3 py-5 text-green-700 bg-yellow-400 rounded-md mb-6">
-                        Spread the word with airdrops and meme competitions. Fun, inclusive events will ignite a $PPX frenzy that everyone can be a part of.
+                        <b>🔥 Community & Engagement</b> <br />
+                        • International community expansion <br />
+                        • Competitions, giveaways & reward programs <br />
+                        • Partnerships with influencers & KOLs <br />
+
+                        <b>🔥 More Listings & Liquidity</b> <br />
+                        • Listing on more top-tier CEXs <br />
+                        • Increase liquidity & trading volume <br />
+                        • Collaborations with crypto projects for greater reach <br />
                     </div>
 
                     <div className=" flex items-center justify-start mb-4">
                         <div className=" mr-4 w-[60px] border-t border-yellow-400"></div>
-                        <h1 className="uppercase font-extrabold text-2xl">Phase 3: Building the Meme Ecosystem</h1>
+                        <h1 className="uppercase font-extrabold text-2xl">Phase 3: Impact & Adoption</h1>
                     </div>
 
                     <div className=" mx-4 w-[90%] px-3 py-5 text-green-700 bg-yellow-400 rounded-md mb-6">
-                        Introduce $PPX-themed NFTs, quirky merchandise, and even a game to boost engagement and real-world use cases.
+                        <b>🚀 Branding & Mass Adoption</b> <br />
+                        • Large marketing campaigns & media presence <br />
+                        • Merch & exclusive community benefits <br />
+                        • Development of long-term partnerships <br />
                     </div>
 
                     <div className=" flex items-center justify-start mb-4">
                         <div className=" mr-4 w-[60px] border-t border-yellow-400"></div>
-                        <h1 className="uppercase font-extrabold text-2xl">Phase 4: Global Expansion</h1>
+                        <h1 className="uppercase font-extrabold text-2xl">Phase 4: Long-Term Vision</h1>
                     </div>
 
                     <div className=" mx-4 w-[90%] px-3 py-5 text-green-700 bg-yellow-400 rounded-md mb-6">
-                    Take $PPX to the world by storm with global events, special missions and partnerships. To include custom trading api and algos, validating authentic crypto support teams, bots and marketing efforts for your projects. Our army of experts will help keep the trenches clean from scammers and rug pulls and support others on their mission!
+                        <b>🌍 Mainstream Adoption & Major Listings</b> <br />
+                        • Apply for listings on Binance, Coinbase & Kraken <br />
+                        • Expansion into global markets <br />
+                        • Strengthening the ecosystem with new features <br />
+
+                        <b>🌍 Sustainability & Community Development</b> <br />
+                        • Build a strong, loyal community <br />
+                        • Long-term user retention & growth programs <br />
+                        • Promote shared goals <br />
                     </div>
                 </div>
             </div>

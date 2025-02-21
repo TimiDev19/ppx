@@ -92,7 +92,14 @@
 }
 
 .banner {
-  background-image: url(../assets/PPX-logo.jpg);
+  background-image: url(../assets/ppx-banner.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.banner2 {
+  background-image: url(../assets/ppx-banner2.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

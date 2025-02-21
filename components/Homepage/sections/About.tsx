@@ -12,14 +12,13 @@ const About = () => {
                     <div className=' bg-green-700 text-yellow-400 p-3 rounded-xl border-2 border-slate-800'>
                         <h1 className=' text-center text-xl font-semibold mb-4'>About $PPX</h1>
                         <p className=' text-center'>
-                            At Captain Trench, our journey began deep in the crypto trenches. We were a diverse team of experts, united by on thing: a fierce disdain for the endless scams, rug pulls and empty promises that have decimated promising projects. We watched as communities were left holding worthless tokens, their hopes reduced to ashes on the memecoin battlefield. <br />
-                            We decided to do things differently. We set out to create not just another memecoin, but a movement or a revolution built on <i>authenticity, trust and real value.</i>
+                            OfficialPumpX is more than just a token, it’s a movement. We’re building a powerful community of investors who see the future before it happens. Will you be one of them?
                         </p>
                     </div>
                 </FadeInFromBottom>
             </div>
 
-            <div className=' banner animate-pulse  lg:vertical-bounce relative w-[90%] mx-auto mb-5 lg:w-[30%] h-[300px] bg-white text-slate-700 p-3 rounded-xl'>
+            <div className=' banner2 animate-pulse  lg:vertical-bounce relative w-[90%] mx-auto mb-5 lg:w-[30%] h-[300px] bg-white text-slate-700 p-3 rounded-xl'>
             </div>
 
             {/* <div className=' w-[90%] mx-auto mb-5 lg:w-[30%] bg-white text-slate-800 p-3 rounded-xl border-2 border-slate-800'>
